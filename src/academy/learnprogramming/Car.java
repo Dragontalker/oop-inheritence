@@ -6,5 +6,5 @@ public class Car {
     private int wheels;
     private String model;
     private String engine;
-    private String color;
+    private String colour;
 }
