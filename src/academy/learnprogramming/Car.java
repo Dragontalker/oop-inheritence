@@ -14,6 +14,8 @@ public class Car {
         String validModel = model.toLowerCase();
         if (validModel.equals("911") || validModel.equals("918")) {
             this.model = model;
+        } else {
+            this.model = "Unknown";
         }
     }
 
