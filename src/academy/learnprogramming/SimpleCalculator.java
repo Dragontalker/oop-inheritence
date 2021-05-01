@@ -31,4 +31,12 @@ public class SimpleCalculator {
     public double getMultiplicationResult() {
         return this.firstNumber * this.secondNumber;
     }
+
+    public double getDivisionResult() {
+        if (this.secondNumber != 0) {
+            return this.firstNumber / this.secondNumber;
+        } else {
+            return 0;
+        }
+    }
 }
