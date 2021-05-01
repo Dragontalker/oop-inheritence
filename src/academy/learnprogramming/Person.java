@@ -36,4 +36,20 @@ public class Person {
     public boolean isTeen() {
         return this.age > 12 && this.age < 20;
     }
+
+    public String getFullName() {
+        if (this.firstName != null && this.firstName != "") {
+            if (this.lastName != null && this.lastName != "") {
+                return this.firstName + " " + this.lastName;
+            } else {
+                return this.firstName;
+            }
+        } else {
+            if (this.lastName != null && this.lastName != "") {
+                return lastName;
+            } else {
+                return "";
+            }
+        }
+    }
 }
