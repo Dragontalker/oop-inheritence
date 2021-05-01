@@ -24,5 +24,13 @@ public class Main {
         person.setAge(10);
         System.out.println("fullName = " + person.getFullName());
         System.out.println("teen = " + person.isTeen());
+
+        // Test 4
+        person.setFirstName("John");
+        person.setAge(18);
+        System.out.println("fullName = " + person.getFullName());
+        System.out.println("teen = " + person.isTeen());
+        person.setLastName("Smith");
+        System.out.println("fullName = " + person.getFullName());
     }
 }
