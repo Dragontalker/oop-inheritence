@@ -15,4 +15,8 @@ public class SimpleCalculator {
     public void setFirstNumber(double number) {
         this.firstNumber = number;
     }
+
+    public void setSecondNumber(double number) {
+        this.secondNumber = number;
+    }
 }
