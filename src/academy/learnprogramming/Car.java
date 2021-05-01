@@ -1,5 +1,7 @@
 package academy.learnprogramming;
 
+import java.util.Locale;
+
 public class Car {
 
     private int doors;
@@ -9,7 +11,10 @@ public class Car {
     private String colour;
 
     public void setModel(String model) {
-        this.model = model;
+        String validModel = model.toLowerCase();
+        if (validModel.equals("porsche") || validModel.equals("holden")) {
+            this.model = model;
+        }
     }
 
     public String getModel() {
