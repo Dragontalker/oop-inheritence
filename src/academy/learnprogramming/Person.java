@@ -16,4 +16,8 @@ public class Person {
     public int getAge() {
         return this.age;
     }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
 }
