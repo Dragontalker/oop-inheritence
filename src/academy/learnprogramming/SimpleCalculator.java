@@ -27,4 +27,8 @@ public class SimpleCalculator {
     public double getSubtractionResult() {
         return this.firstNumber - this.secondNumber;
     }
+
+    public double getMultiplicationResult() {
+        return this.firstNumber * this.secondNumber;
+    }
 }
