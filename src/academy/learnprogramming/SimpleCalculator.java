@@ -11,4 +11,8 @@ public class SimpleCalculator {
     public double getSecondNumber() {
         return this.secondNumber;
     }
+
+    public void setFirstNumber(double number) {
+        this.firstNumber = number;
+    }
 }
