@@ -19,4 +19,8 @@ public class SimpleCalculator {
     public void setSecondNumber(double number) {
         this.secondNumber = number;
     }
+
+    public double getAdditionResult() {
+        return this.firstNumber + this.secondNumber;
+    }
 }
